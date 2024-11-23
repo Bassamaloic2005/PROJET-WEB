@@ -1,0 +1,54 @@
+#container{
+    width: 500px;
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+body{
+    background-image: url('fight.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#container button,textarea,input{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+#container textarea{
+    width: 350px;
+    height: 200px;
+    border-radius: 30px;
+}
+#container input{
+    width: 240px;
+    position: relative;
+    top: 15%;
+    right: 21%;
+    border-radius:45px ;
+    background-color: blueviolet;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#container button{
+    width: 150px;
+    border-radius: 10px;
+  
+    border: 3px solid white;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+}
+#download{
+    background-color:red ;
+    border: 5px solid white;
+}
+#afficher{
+    background-color: rgb(87, 184, 87);
+}
